@@ -6,3 +6,7 @@ echo "print script name: $0"
 echo "print current directory: $PWD"
 echo "who am i : $USER"
 echo "print pid :$$"
+
+sleep 50 &
+
+echo "last sleep time :$!"

@@ -3,4 +3,5 @@
 echo "print all the special variables: $@"
 echo "print all the special variables: $*"
 echo "print script name: $0"
-echo "print current directory: $pwd"
+echo "print current directory: $PWD"
+echo "who am i : $USER"
